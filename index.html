@@ -5,16 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My To Do List</title>
-    <link rel="stylesheet" 
+    <link rel="stylesheet"
      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
      crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>
-        TO DO LIST
-    </h1>
-    
+<body> 
+            <!--- Heading & add task Bar --->
+            <div class="form-group">
+                    <h1>MY TO-DO LIST</h1>
+                  <form role="form">
+                      <input type="text" class="form-control" placeholder="Your Task" name="task">
+                  </form>
+                  <button type="button" class="btn btn btn-primary">Add</button>
+                      </div>
+                      <div></div>
+                  <ul class="list-unstyled" id="todo"></ul>
+
+            <!--- List of Task components--->
+
+ <div class="container-list-of-todos">
+    <h2>
+        TASKS
+    </h2>
+        <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <input type="checkbox" aria-label="Checkbox for following text input">
+                  </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with checkbox">
+              </div>
+              <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                        <input type="checkbox" aria-label="Checkbox for following text input">
+                      </div>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Text input with checkbox">
+                  </div>
+                  <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text">
+                            <input type="checkbox" aria-label="Checkbox for following text input">
+                          </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Text input with checkbox">
+                      </div>
+                      <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text">
+                                <input type="checkbox" aria-label="Checkbox for following text input">
+                              </div>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Text input with checkbox">
+                          </div>
+</div>
+
+            <!--- uncompleted component --->
+
+ <div class="uncompleted-tasks">
+  <button type="button" class="btn btn-danger">
+    <large>YOU HAVE </large><span class="badge badge-light"> 4 </span><large> UNCOMPLETED TASKS!</large>
+  </button>
+ </div>    
 </body>
 </html>

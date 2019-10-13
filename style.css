@@ -1,7 +1,33 @@
 body {
-    background-color: blueviolet;
+    background-color:purple;
 }
 
-h1 {
-    color: purple;
+form {
+    display: inline-block;
+}
+.form-group {
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: 'Indie Flower', cursive;
+    color: whitesmoke;
+}
+#todo {
+    margin: 0 auto;
+    width: 500px;
+}
+
+a.close {
+  float: right;
+}
+
+.container-list-of-todos {
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: 'Indie Flower', cursive;
+    color: whitesmoke;
+}
+
+.uncompleted-tasks {
+    text-align: center;
+    padding-bottom: 25px;
 }
