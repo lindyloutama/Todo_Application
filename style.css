@@ -5,6 +5,11 @@ body {
 form {
     display: inline-block;
 }
+
+h2 {
+    text-align: left;
+    margin-left: 10px;
+}
 .form-group {
     text-align: center;
     padding-bottom: 25px;

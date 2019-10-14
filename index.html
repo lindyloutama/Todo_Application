@@ -26,11 +26,14 @@
 
             <!--- List of Task components--->
 
+        <!-- Need to use grid to narrow down the columns and move to the left of the page-->
+
  <div class="container-list-of-todos">
     <h2>
         TASKS
     </h2>
-        <div class="input-group mb-3">
+    <div class="col-2">
+        <div class="input-group mb-3 col-md-6">
                 <div class="input-group-prepend">
                   <div class="input-group-text">
                     <input type="checkbox" aria-label="Checkbox for following text input">
@@ -38,7 +41,7 @@
                 </div>
                 <input type="text" class="form-control" aria-label="Text input with checkbox">
               </div>
-              <div class="input-group mb-3">
+              <div class="input-group mb-3 col-md-6">
                     <div class="input-group-prepend">
                       <div class="input-group-text">
                         <input type="checkbox" aria-label="Checkbox for following text input">
@@ -46,7 +49,7 @@
                     </div>
                     <input type="text" class="form-control" aria-label="Text input with checkbox">
                   </div>
-                  <div class="input-group mb-3">
+                  <div class="input-group mb-3 col-md-6">
                         <div class="input-group-prepend">
                           <div class="input-group-text">
                             <input type="checkbox" aria-label="Checkbox for following text input">
@@ -54,7 +57,7 @@
                         </div>
                         <input type="text" class="form-control" aria-label="Text input with checkbox">
                       </div>
-                      <div class="input-group mb-3">
+                      <div class="input-group mb-3 col-md-6">
                             <div class="input-group-prepend">
                               <div class="input-group-text">
                                 <input type="checkbox" aria-label="Checkbox for following text input">
@@ -62,9 +65,12 @@
                             </div>
                             <input type="text" class="form-control" aria-label="Text input with checkbox">
                           </div>
+ </div>
 </div>
 
             <!--- uncompleted component --->
+
+            <!-- Need to use grid to shift to the right of the task list-->
 
  <div class="uncompleted-tasks">
   <button type="button" class="btn btn-danger">
