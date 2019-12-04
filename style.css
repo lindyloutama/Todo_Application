@@ -1,18 +1,26 @@
 body {
-    background-color:yellow;
+    background-color:white;
 }
 
 form {
     display: inline-block;
 }
 
+.addItem {
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .container-task {
     text-align: center;
 }
 
-h2 {
-    text-align: left;
+h3 {
+    text-align: center;
     margin-left: 10px;
+    
 }
 
 #todo {
@@ -22,6 +30,10 @@ h2 {
 
 a.close {
   float: right;
+}
+
+.taskbar {
+    padding-left: 50px;
 }
 
 .container-list-of-todos {
@@ -36,6 +48,29 @@ a.close {
     padding-bottom: 25px;
 }
 
+.greenTick {
+    color: green;
+    border: solid;
+}
+
+.redBin {
+    color: red;
+    border: solid;
+}
+
+.reFresh {
+    color: orange;
+    border: solid;
+}
+
+.cross {
+    color: blue;
+    border: solid;
+}
+
+.hideCompleted {
+    text-align: center;
+}
 @media (min-width: 576px) {
 
  }

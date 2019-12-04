@@ -1,4 +1,6 @@
-- the number of completed list
-- the adding to the list 
-- completing each task with a tick
-- list of each individual task
+- the number of uncompleted list
+- number of completed list
+- adding task to the list 
+- completed tick, refresh, trash can
+- hide/unhide button
+- completed list cross
