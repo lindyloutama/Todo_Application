@@ -6,6 +6,10 @@ form {
     display: inline-block;
 }
 
+h2 {
+    text-align: center;
+}
+
 .addItem {
     background-color: lightgray;
     border: 1px solid lightgray;
@@ -19,8 +23,6 @@ form {
 
 h3 {
     text-align: center;
-    margin-left: 10px;
-    
 }
 
 #todo {
@@ -73,4 +75,7 @@ a.close {
 }
 @media (min-width: 576px) {
 
+}
+ completed {
+     
  }

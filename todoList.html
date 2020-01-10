@@ -15,11 +15,10 @@
 </head>
 
 <body>
+
+    <h2>To Do List</h2>
+    <!-- addItem task bar -->
     <div class="container-task">
-        <h1>To-Do List</h1>
-
-        <!-- addItem task bar -->
-
         <div class="row addItem">
             <div class="col-9 col-sm-10 taskbar">
                 <input type="text" class="form-control addText" placeholder="add task here">
@@ -34,96 +33,121 @@
     <br>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-sm-6">
-                <h3>You have 4 uncompleted Tasks!</h3>
+            <div class="col-12 col-xs-6">
+                You have 4 uncompleted Tasks!
             </div>
-            <div class="col-12 col-sm-6 completed">
-                <h3>Completed Task List</h3>
+        </div>
+
+        <br>
+        <!-- toDo task list -->
+        <div class="container">
+            <div class="row toDo">
+                <div class="row col-6 col-md-4">
+                    Clean Windows
+                </div>
+                <div class="col-2 col-md-1">
+                    <button type="button" class="btn fas fa-check greenTick"></button>
+                </div>
+                <div class="col-2 col-md-1">
+                    <button type="button" class="btn fa fa-refresh reFresh"></button>
+                </div>
+                <div class="col-2 col-md-1">
+                    <button type="button" class="btn far fa-trash-alt redBin"></button>
+                </div>
+            </div>
+
+            <div class="row toDo">
+                <div class="row col-6 col-md-4">
+                    Take out rubbish
+                </div>
+                <div class="col-2 col-md-1">
+                    <button type="button" class="btn fas fa-check greenTick"></button>
+                </div>
+                <div class="col-2 col-md-1">
+                    <button type="button" class="btn fa fa-refresh reFresh"></button>
+                </div>
+                <div class="col-2 col-md-1">
+                    <button type="button" class="btn far fa-trash-alt redBin"></button>
+                </div>
+            </div>
+
+            <div class="row toDo">
+                <div class="row col-6 col-md-4">
+                    Hang out wasing
+                </div>
+                <div class="col-2 col-md-1">
+                    <button type="button" class="btn fas fa-check greenTick"></button>
+                </div>
+                <div class="col-2 col-md-1">
+                    <button type="button" class="btn fa fa-refresh reFresh"></button>
+                </div>
+                <div class="col-2 col-md-1">
+                    <button type="button" class="btn far fa-trash-alt redBin"></button>
+                </div>
+            </div>
+            <div class="row toDo">
+                <div class="row col-6 col-md-4">
+                    Vacuum House
+                </div>
+                <div class="col-2 col-md-1">
+                    <button type="button" class="btn fas fa-check greenTick"></button>
+                </div>
+                <div class="col-2 col-md-1">
+                    <button type="button" class="btn fa fa-refresh reFresh"></button>
+                </div>
+                <div class="col-2 col-md-1">
+                    <button type="button" class="btn far fa-trash-alt redBin"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- completed items list -->
+    <div class="container completed">
+        <div class="row">
+            <div class="col-12 col-sm-12">
+            Completed Task List
             </div>
         </div>
         <br>
-        <!-- toDo task list -->
-
-        <div class="row toDo">
-            <div class="row col-6 col-md-4">
-                Clean Windows
-            </div>
-            <div class="col-2 col-md-1">
-                <button type="button" class="btn fas fa-check greenTick"></button>
-            </div>
-            <div class="col-2 col-md-1">
-                <button type="button" class="btn fa fa-refresh reFresh"></button>
-            </div>
-            <div class="col-2 col-md-1">
-                <button type="button" class="btn far fa-trash-alt redBin"></button>
-            </div>
-            <div class="row col-5 col-md-4 completed ">
-                Buy flights
-            </div>
-            <div class="row col-2 col-md-1">
-                <button type="button" class="btn fas fa-times cross"></button>
+        <div class="container ">
+            <div class="row">
+                <div class="col-6 col-xs-8">
+                    Unpack dishwasher
+                </div>
+                <div class="col-2 col-xs-2">
+                    <button type="button" class="btn fas fa-times cross"></button>
+                </div>
             </div>
         </div>
-
-        <div class="row toDo">
-            <div class="row col-6 col-md-4">
-                Take out rubbish
-            </div>
-            <div class="col-2 col-md-1">
-                <button type="button" class="btn fas fa-check greenTick"></button>
-            </div>
-            <div class="col-2 col-md-1">
-                <button type="button" class="btn fa fa-refresh reFresh"></button>
-            </div>
-            <div class="col-2 col-md-1">
-                <button type="button" class="btn far fa-trash-alt redBin"></button>
-            </div>
-            <div class="row col-5 col-md-4">
-                Feed cat
-            </div>
-            <div class="row col-2 col-md-1">
-                <button type="button" class="btn fas fa-times cross"></button>
+        <div class="container ">
+            <div class="row">
+                <div class="col-6 col-xs-8">
+                    Make Bed
+                </div>
+                <div class="col-2 col-xs-2">
+                    <button type="button" class="btn fas fa-times cross"></button>
+                </div>
             </div>
         </div>
-
-        <div class="row toDo">
-            <div class="row col-6 col-md-4">
-                Hang out wasing
-            </div>
-            <div class="col-2 col-md-1">
-                <button type="button" class="btn fas fa-check greenTick"></button>
-            </div>
-            <div class="col-2 col-md-1">
-                <button type="button" class="btn fa fa-refresh reFresh"></button>
-            </div>
-            <div class="col-2 col-md-1">
-                <button type="button" class="btn far fa-trash-alt redBin"></button>
-            </div>
-            <div class="row col-5 col-md-4">
-                Make Bed
-            </div>
-            <div class="row col-2 col-md-1 ">
-                <button type="button" class="btn fas fa-times cross"></button>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-xs-8">
+                    Feed cat
+                </div>
+                <div class="col-2 col-xs-2">
+                    <button type="button" class="btn fas fa-times cross"></button>
+                </div>
             </div>
         </div>
-        <div class="row toDo">
-            <div class="row col-6 col-md-4">
-                Vacuum House
-            </div>
-            <div class="col-2 col-md-1">
-                <button type="button" class="btn fas fa-check greenTick"></button>
-            </div>
-            <div class="col-2 col-md-1">
-                <button type="button" class="btn fa fa-refresh reFresh"></button>
-            </div>
-            <div class="col-2 col-md-1">
-                <button type="button" class="btn far fa-trash-alt redBin"></button>
-            </div>
-            <div class="row col-5 col-md-4 completed">
-                unpack dishwasher
-            </div>
-            <div class="row col-2 col-md-1">
-                <button type="button" class="btn fas fa-times cross"></button>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-xs-8">
+                    Buy flights
+                </div>
+                <div class="col-2 col-xs-2">
+                    <button type="button" class="btn fas fa-times cross"></button>
+                </div>
             </div>
         </div>
     </div>
